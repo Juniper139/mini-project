@@ -10,7 +10,7 @@ import time
 # CONFIG
 # ==============================
 
-ESP32_URL = "http://172.21.40.116/capture"   # your ESP32 IP
+ESP32_URL = "http://172.21.40.116/capture"  # your ESP32 IP
 MQTT_BROKER = "localhost"
 MQTT_PORT = 1883
 MQTT_TOPIC = "crowd/data"
@@ -27,7 +27,7 @@ DANGER_DENSITY = 1.5
 # LOAD YOLO MODEL
 # ==============================
 
-model = YOLO("runs/detect/human_model_final/weights/best.pt")
+model =YOLO("D:/miniproject/miniproject/runs/detect/human_model_final/weights/best.pt")
 
 # ==============================
 # MQTT SETUP
